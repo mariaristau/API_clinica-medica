@@ -3,5 +3,27 @@
     "scripts": {
         "dev": "node --watch --env-file=.env scr/app.js",
         "start": "node --env-file=.env scr/app.js"
+    },
+    "name": "api_clinica-medica",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mariaristau/API_clinica-medica.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mariaristau/API_clinica-medica/issues"
+    },
+    "homepage": "https://github.com/mariaristau/API_clinica-medica#readme",
+    "dependencies": {
+        "express": "^5.3.0",
+        "mysql2": "^3.24.6"
     }
 }
