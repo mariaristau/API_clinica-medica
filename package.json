@@ -1,0 +1,7 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev": "node --watch --env-file=.env scr/app.js",
+        "start": "node --env-file=.env scr/app.js"
+    }
+}
